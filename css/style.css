@@ -436,7 +436,7 @@ header{
 }
 .video-wrapper video{
     width: 100%;
-    height: 100%;
+    height: 70%;
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -794,8 +794,8 @@ header.header-sm{
 /* facts */
 #facts{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/facts-img.jpg) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpg) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Background.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Background.jpg) center/cover no-repeat;
     min-height: 80vh;
 }
 #facts .title-wrap{
