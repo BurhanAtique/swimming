@@ -8,17 +8,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- fonts -->
+    
+   
     <link rel="stylesheet" href="font/fonts.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- normalize css -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+   
 </head>
 
 <body>
@@ -61,13 +68,13 @@
     <!-- end of navbar  -->
 
     <!-- header -->
-    <header class="flex">
+    <!-- <header class="flex">
         <div class="container">
             <div class="header-title">
                 <h1>Welcome To Al-Abhar Technical Work</h1>
                 <p></p>
             </div>
-            <!-- <div class = "header-form">
+            <div class = "header-form">
                     <h2>Choose your Travel location:</h2>
                     <form class = "flex">
                         <input type = "text" class = "form-control" placeholder="Destination name">
@@ -75,9 +82,37 @@
                         <input type="number" class = "form-control" placeholder="Price ($)">
                         <input type="submit" class = "btn" value = "Search">
                     </form>
-                </div>  -->
+                </div> 
         </div>
-    </header>
+    </header> -->
+
+    <div class="owl-carousel owl-theme">
+        <div class="slide slide-1">
+            <div class="slide-content">
+                
+                <h1>Welcome To Al Abhar Technical Work</h1>
+                <p class= "carouselFont">Swimming Pool Maintaince</p>
+                <p class= "carouselFont">Swimming Pool Construction</p>
+                <button>Request A Call Now</button>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+                <h1>Life is Cool by the Pool</h1>
+                <p>Pool Cleaning for you</p>
+                <p>Water feature and Fountains</p>
+                <button>Request A Call Now</button>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+                <h1>Your Pool Our Responsibility </h1>
+                <p>A swimming pool is a great place to use swimming skills or games to teach this. Swimming can also transfer to other sports since it enhances coordination, flexibility, endurance, and strength.</p>
+                <button>Request A Call Now</button>
+            </div>
+        </div>
+    </div>
+      
 
 
     <!-- featured section
@@ -174,50 +209,60 @@
     <section id = "blog" class = "py-4">
         <div class = "container">
             <div class = "title-wrap">
-                <p class = "md-title">We give a personal approach to each and every customer that contacts us. 
-                    Our goal is to build and maintain the best swimming pool possible, at the same time keeping it
-                     affordable. 
-                    We back it up with the best customer service you'll find anywhere.</p>
+                <h3 class = "lg-title">About Us</h3>
+
+                <div class="py-6"></div>
+                <p class = "md-title ">Al abhar technical works is a team of professionals and experts committed to providing 
+                    the best cleaning services for residences, commercial and construction sites in UAE.We offer complete 
+                    cleaning solutions and always strive to achieve
+                     the best in class customer services to our clients using latest technology</p>
+                     <div class="py-4"></div>
                 <h3 class = "lg-title">our services</h3>
             </div>
-
+                    
             <div class = "blog-row">
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/ser1.jpg" alt = "blog">
+                        <img src = "images/s10.jpg" alt = "blog">
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>Interior Pool Surface</span> -->
-                        <!-- <a href = "#">Interior Pool Surface</a> -->
-                        <p class = "text">A pergola is a solid wooden shade structure, water proof or sun resistant that 
-                            protects 
-                            you from the sun and rain, allowing you to enjoy your outdoor living space all year long.
-                            Our professional designers and builders create a customized pergola that fits your specific
-                             needs and lifestyle.</p>
+                         <a href = "#">Swimming Pool Maintenance</a> 
+                        <p class = "text">Our first priority is to provide a safe, healthy and clean pool environment for our clients.
+                             We provide complete solutions for your pool problems, regardless of the size.Our services include pool 
+                             cleaning,
+                              pump and light repairing,  cover installation and water replacement.</p>
                     </div>
                 </div>
 
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/ser2.jpg" alt = "blog" >
+                        <img src = "images/ccc1.jpg" alt = "blog" >
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>travel | john doe</span> -->
-                        <!-- <a href = "#">Pargola making</a> -->
-                        <p class = "text">We are committed to ensure your home and business remains free from pests, Our expert team are well-trained pest control technicians ensures optimal and clean surroundings for you and your family.</p>
+                        <a href = "#">Swimming Pool Construction</a> 
+                        <p class = "text">We are experts in all types of pool constructions 
+                            We help you to bring your dream swimming pool design to reality.
+                            We can make 
+                            Infinity Pools
+                            Skimmer Pools
+                            Knife Edge Pools
+                            Infinity with Glass Pools
+                            Fibre Glass Pools​</p>
                     </div>
                 </div>
 
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/p2.jpg" alt = "blog">
+                        <img src = "images/water.jpg" alt = "blog">
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>travel | john doe</span> -->
-                        <!-- <a href = "#">Repairs</a> -->
+                        <a href = "#">Water Feature and fountains</a>
                         <p class = "text">Water features provide the soothing sight and sound of water in the landscape without taking up a lot of space. Upgrade the entrance to your home by adding it.
                             we can construct it to the highest standards; after that we can provide the complete worry-free maintenance service.</p>
                     </div>
@@ -225,45 +270,44 @@
 
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/s10.jpg" alt = "blog" height="237">
+                        <img src = "images/ser1.jpg" alt = "blog" >
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>travel | john doe</span> -->
-                        <!-- <a href = "#">Pool Cleaning</a> -->
-                        <p class = "text">Our first priority is to provide a safe, healthy and clean pool environment 
-                            for our clients. We provide complete solutions for your pool problems, regardless of the size.
-                            Our services include pool cleaning,  
-                            pump and light repairing,  cover installation and water replacement.</p>
+                        <a href = "#">Pargola Making</a>
+                        <p class = "text">water features provide the soothing sight and sound of water in the 
+                            landscape without taking up a lot of space. Upgrade the entrance to your home by adding it.
+                            we can construct it to the highest standards; after that we can provide the complete worry-free 
+                            maintenance service.</p>
                     </div>
                 </div>
 
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/no3.jpg" alt = "blog">
+                        <img src = "images/garden2.jpg" alt = "blog">
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>travel | john doe</span> -->
-                        <!-- <a href = "#">Contruction of pool</a> -->
-                        <p class = "text">We are experts in all types of pool constructions We help you to bring your dream swimming pool design to reality.
-                            We can make 
-                            Infinity Pools
-                            Skimmer Pools
-                            Knife Edge Pools
-                            Infinity with Glass Pools
-                            Fibre Glass Pools​ </p>
+                        <a href = "#">Garden Services</a>
+                        <p class = "text">Our landscaping team are certified experts and have the experience of working on various soft 
+                            landscaping projects. We take our client’s preferences into consideration while selecting 
+                            the different varieties of plants from reliable nurseries.
+                            Our irrigation engineers are skilled in designing and installing a robust automated irrigation system
+                             for efficient watering of plants .We provide customised irrigation plans which are economically viable 
+                             to the clients . </p>
                     </div>
                 </div>
 
                 <div class = "blog-item my-2 shadow">
                     <div class = "blog-item-top">
-                        <img src = "images/no1.jpg" alt = "blog">
+                        <img src = "images/cleaning.jpg" alt = "blog">
                         <!-- <span class = "blog-date">oct 28, 2021</span> -->
                     </div>
                     <div class = "blog-item-bottom">
                         <!-- <span>travel | john doe</span> -->
-                        <!-- <a href = "#">Tile Cleaning</a> -->
+                        <a href = "#">Tile Cleaning</a> 
                         <p class = "text">The best patio cleaners for removing algae, mold, dirt, and moss from your paving and decking; all with minimal effort and incredibly satisfying results</p>
                     </div>
                 </div>
@@ -280,132 +324,58 @@
 
         <div class="popular-row">
             <div class="popular-item shadow">
-                <img src="images/swim1.jpg" alt="">
-                <div>
+                <img src="images/5.jpg" alt="">
+                <!-- <div>
                     <span>Interior Pool Surfacce</span>
-                    <!-- <ul class = "rating flex">
+                    <ul class = "rating flex">
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star-half-alt"></i></li>
                             <li>&nbsp;400 reviews</li>
-                        </ul> -->
+                        </ul>
                     <p class="text">When it comes to finding right pool surface for your design</p>
-                </div>
+                </div> -->
             </div>
 
             <div class="popular-item shadow">
-                <img src="images/swim2.jpg" alt="">
-                <div>
+                <img src="images/s1.jpg" alt="">
+                <!-- <div>
                     <span>Repairs</span>
-                    <!-- <ul class = "rating flex">
+                    <ul class = "rating flex">
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star-half-alt"></i></li>
                             <li>&nbsp;400 reviews</li>
-                        </ul> -->
+                        </ul>
                     <p class="text">When it comes to finding right pool surface for your design</p>
-                </div>
+                </div> -->
             </div>
 
             <div class="popular-item shadow">
-                <img src="images/swim3.jpg" alt="">
-                <div>
+                <img src="images/s2.jpg" alt="">
+                <!-- <div>
                     <span>Pool Inspection</span>
-                    <!-- <ul class = "rating flex">
+                    <ul class = "rating flex">
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star"></i></li>
                             <li><i class = "fas fa-star-half-alt"></i></li>
                             <li>&nbsp;400 reviews</li>
-                        </ul> -->
+                        </ul>
                     <p class="text">Equipment should be inspected for safety parameters</p>
-                </div>
+                </div> -->
             </div>
 
             <div class="popular-item shadow">
-                <img src="images/swim6.jpg" alt="">
-                <div>
-                    <span>Pool Tile</span>
-                    <!-- <ul class = "rating flex">
-                            <li><i class = "fas fa-star"></i></li>
-                            <li><i class = "fas fa-star"></i></li>
-                            <li><i class = "fas fa-star"></i></li>
-                            <li><i class = "fas fa-star"></i></li>
-                            <li><i class = "fas fa-star-half-alt"></i></li>
-                            <li>&nbsp;400 reviews</li>
-                        </ul> -->
-                    <p class="text">We have variety of tile for you to choose from us</p>
-                </div>
+                <img src="images/s3.jpg" alt="">
+      
             </div>
 
-            <div class="popular-item shadow">
-                <img src="images/popular-5.jpg" alt="">
-                <div>
-                    <span>Dubai, United Arab Emirates</span>
-                    <ul class="rating flex">
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star-half-alt"></i></li>
-                        <li>&nbsp;400 reviews</li>
-                    </ul>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
-                </div>
-            </div>
-
-            <div class="popular-item shadow">
-                <img src="images/popular-6.jpg" alt="">
-                <div>
-                    <span>Bhutan</span>
-                    <ul class="rating flex">
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star-half-alt"></i></li>
-                        <li>&nbsp;400 reviews</li>
-                    </ul>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
-                </div>
-            </div>
-
-            <div class="popular-item shadow">
-                <img src="images/popular-7.jpg" alt="">
-                <div>
-                    <span>Havana, Cuba</span>
-                    <ul class="rating flex">
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star-half-alt"></i></li>
-                        <li>&nbsp;400 reviews</li>
-                    </ul>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
-                </div>
-            </div>
-
-            <div class="popular-item shadow">
-                <img src="images/popular-8.jpg" alt="">
-                <div>
-                    <span>Moskva, Russia</span>
-                    <ul class="rating flex">
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star"></i></li>
-                        <li><i class="fas fa-star-half-alt"></i></li>
-                        <li>&nbsp;400 reviews</li>
-                    </ul>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
-                </div>
-            </div>
         </div>
     </section>
     <!-- end of popular places section -->
@@ -415,14 +385,14 @@
     <section id="services" class="py-4">
         <div class="container">
             <div class="title-wrap">
-                <span class="sm-title">know more about our services </span>
-                <h2 class="lg-title">Swimming Pool Installations</h2>
+                <!-- <span class="sm-title">What else we do</span> -->
+                <h2 class="lg-title">What else we do</h2>
             </div>
 
             <div class="services-row">
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-hotel"></i>
+                        <i class="fa-solid fa-person-swimming"></i>
                     </span>
                     <h3>Swimming Pool Istallation</h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
@@ -431,7 +401,7 @@
 
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <i class="fa-solid fa-person-swimming"></i>
                     </span>
                     <h3>Renovation of Swimming Pool</h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
@@ -440,25 +410,26 @@
 
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-money-bill"></i>
+                        <i class="fas fa-swimming-pool"></i>
                     </span>
-                    <h3>Install Dosing System</h3>
+                    <h3>Installing of Dosing System</h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
                         <a href = "#" class = "btn">Read more</a> -->
                 </div>
 
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <i class="fas fa-swimming-pool"></i>
                     </span>
-                    <h3>Install Chiller & Heather</h3>
+                    <h3>Installing Chiller & Heather</h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
                         <a href = "#" class = "btn">Read more</a> -->
                 </div>
 
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <!-- <i class="fas fa-map-marked-alt"></i> -->
+                        <i class="fa-solid fa-person-swimming"></i>
                     </span>
                     <h3>Replace Tiles of Swimming Pool </h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
@@ -467,7 +438,8 @@
 
                 <div class="services-item">
                     <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <i class="fas fa-swimming-pool"></i>
+                        <!-- <img src = "images/icon1.jpg" alt = "blog"> -->
                     </span>
                     <h3>Replace Filter & Pump</h3>
                     <!-- <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
@@ -535,7 +507,7 @@
     <section id="video">
         <div class="video-wrapper flex">
             <video loop>
-                <source src="videos/combine.mp4" type="video/mp4" height="50">
+                <source src="videos/1.mp4" type="video/mp4" height="50">
             </video>
             <button type="button" id="play-btn">
                 <i class="fas fa-play"></i>
@@ -614,6 +586,29 @@
             }
         });
     </script>
+    <!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <!-- Jquery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- Owl Carousel -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <!-- Custom Javascript -->
+   <script>
+       $(document).ready(function () {
+           $(".owl-carousel").owlCarousel({
+               items:1,
+               loop:true,
+               nav:true,
+               dots:true,
+               autoplay:true,
+               autoplaySpeed:1000,
+               smartSpeed:1500,
+               autoplayHoverPause:true
+           });
+       });
+   </script>
+
 </body>
 
 </html>
